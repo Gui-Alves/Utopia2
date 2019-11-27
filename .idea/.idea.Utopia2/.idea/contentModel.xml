@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\guilh\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\guilh\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Utopia2.-1261224212.00" t="ExcludeRecursive" />
+    <e p="C:\Users\guilh\Documents\Otter-master\Otter" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Colliders" t="Include">
+        <e p="BoxCollider.cs" t="Include" />
+        <e p="CircleCollider.cs" t="Include" />
+        <e p="Collider.cs" t="Include" />
+        <e p="GridCollider.cs" t="Include" />
+        <e p="LineCollider.cs" t="Include" />
+        <e p="PixelCollider.cs" t="Include" />
+        <e p="PointCollider.cs" t="Include" />
+        <e p="PolygonCollider.cs" t="Include" />
+      </e>
+      <e p="Components" t="Include">
+        <e p="Alarm.cs" t="Include" />
+        <e p="AutoTimer.cs" t="Include" />
+        <e p="Axis.cs" t="Include" />
+        <e p="Bone.cs" t="Include" />
+        <e p="Button.cs" t="Include" />
+        <e p="Component.cs" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="Controller.cs" t="Include" />
+          <e p="ControllerPS3.cs" t="Include" />
+          <e p="ControllerXbox360.cs" t="Include" />
+        </e>
+        <e p="Countdown.cs" t="Include" />
+        <e p="Counter.cs" t="Include" />
+        <e p="Events" t="Include">
+          <e p="EventProcessor.cs" t="Include" />
+          <e p="EventProcessorEvent.cs" t="Include" />
+          <e p="EventQueue.cs" t="Include" />
+          <e p="EventStack.cs" t="Include" />
+        </e>
+        <e p="GridCounter.cs" t="Include" />
+        <e p="IRC.cs" t="Include" />
+        <e p="Lerper.cs" t="Include" />
+        <e p="Movement" t="Include">
+          <e p="BasicMovement.cs" t="Include" />
+          <e p="Movement.cs" t="Include" />
+          <e p="PlatformingMovement.cs" t="Include" />
+        </e>
+        <e p="SineWave.cs" t="Include" />
+        <e p="Skeleton.cs" t="Include" />
+        <e p="Snake.cs" t="Include" />
+        <e p="StateMachine.cs" t="Include" />
+        <e p="Vertebrae.cs" t="Include" />
+      </e>
+      <e p="CONSOLA.TTF" t="Include" />
+      <e p="Core" t="Include">
+        <e p="Entity.cs" t="Include" />
+        <e p="Game.cs" t="Include" />
+        <e p="Input.cs" t="Include" />
+        <e p="Music.cs" t="Include" />
+        <e p="Scene.cs" t="Include" />
+        <e p="Session.cs" t="Include" />
+        <e p="Sound.cs" t="Include" />
+      </e>
+      <e p="csfml-audio-2.dll" t="Include" />
+      <e p="csfml-graphics-2.dll" t="Include" />
+      <e p="csfml-network-2.dll" t="Include" />
+      <e p="csfml-system-2.dll" t="Include" />
+      <e p="csfml-window-2.dll" t="Include" />
+      <e p="Graphics" t="Include">
+        <e p="Anim.cs" t="Include" />
+        <e p="Atlas.cs" t="Include" />
+        <e p="Color.cs" t="Include" />
+        <e p="Drawables" t="Include">
+          <e p="Decals.cs" t="Include" />
+          <e p="Gradient.cs" t="Include" />
+          <e p="Graphic.cs" t="Include" />
+          <e p="GraphicList.cs" t="Include" />
+          <e p="Grid.cs" t="Include" />
+          <e p="Image.cs" t="Include" />
+          <e p="ImageSet.cs" t="Include" />
+          <e p="NineSlice.cs" t="Include" />
+          <e p="Spritemap.cs" t="Include" />
+          <e p="SquareClock.cs" t="Include" />
+          <e p="Surface.cs" t="Include" />
+          <e p="Tilemap.cs" t="Include" />
+          <e p="Vertices.cs" t="Include" />
+        </e>
+        <e p="Shader.cs" t="Include" />
+        <e p="Text" t="Include">
+          <e p="BitmapFont.cs" t="Include" />
+          <e p="Font.cs" t="Include" />
+          <e p="RichText.cs" t="Include" />
+          <e p="Text.cs" t="Include" />
+        </e>
+        <e p="Texture.cs" t="Include" />
+        <e p="Transformation.cs" t="Include" />
+        <e p="Vert.cs" t="Include" />
+      </e>
+      <e p="libsndfile-1.dll" t="Include" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="openal32.dll" t="Include" />
+      <e p="Otter.csproj" t="IncludeRecursive" />
+      <e p="otterlogo.png" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+      </e>
+      <e p="Utility" t="Include">
+        <e p="Cache.cs" t="Include" />
+        <e p="Coroutine.cs" t="Include" />
+        <e p="DataSaver.cs" t="Include" />
+        <e p="Debugger.cs" t="Include" />
+        <e p="DebugInput.cs" t="Include" />
+        <e p="Draw.cs" t="Include" />
+        <e p="Entities" t="Include">
+          <e p="Flash.cs" t="Include" />
+          <e p="Particle.cs" t="Include" />
+        </e>
+        <e p="EventRouter.cs" t="Include" />
+        <e p="Extensions.cs" t="Include" />
+        <e p="Glide" t="Include">
+          <e p="Ease.cs" t="Include" />
+          <e p="GlideInfo.cs" t="Include" />
+          <e p="GlideLerper.cs" t="Include" />
+          <e p="Tween.cs" t="Include" />
+          <e p="Tweener.cs" t="Include" />
+        </e>
+        <e p="GoodStuff" t="Include">
+          <e p="NaturalLanguage.cs" t="Include" />
+        </e>
+        <e p="Line2.cs" t="Include" />
+        <e p="MonoGame" t="Include">
+          <e p="MathHelper.cs" t="Include" />
+          <e p="Matrix.cs" t="Include" />
+          <e p="Point.cs" t="Include" />
+          <e p="Quaternion.cs" t="Include" />
+          <e p="Rectangle.cs" t="Include" />
+          <e p="Vector2.cs" t="Include" />
+          <e p="Vector3.cs" t="Include" />
+          <e p="Vector4.cs" t="Include" />
+        </e>
+        <e p="OgmoProject.cs" t="Include" />
+        <e p="Polygon.cs" t="Include" />
+        <e p="Rand.cs" t="Include" />
+        <e p="Range.cs" t="Include" />
+        <e p="Ref.cs" t="Include" />
+        <e p="Speed.cs" t="Include" />
+        <e p="SpriteBatch.cs" t="Include" />
+        <e p="Util.cs" t="Include" />
+      </e>
+    </e>
+    <e p="C:\Users\guilh\RiderProjects\Utopia2" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Utopia2" t="IncludeRecursive">
+        <e p="BG.jpg" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Card.cs" t="Include" />
+        <e p="CardOption.cs" t="Include" />
+        <e p="ImageEntity.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="Question.cs" t="Include" />
+          <e p="Solution.cs" t="Include" />
+          <e p="Stats.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PlayerStats.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="rsz_bg.jpg" t="Include" />
+        <e p="StartGame.cs" t="Include" />
+        <e p="Utopia2.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Utopia2.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
