@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5ba510b-93bc-4b62-bd00-0b36f7e5c17c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Apocalypse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameOverScreen.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Utopia2.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Utopia2.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Utopia2.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Utopia2.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Card.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameManger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameManger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerStats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utopia2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Utopia2.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOverScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameOverScreen.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Utopia2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Utopia2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Utopia2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Utopia2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Utopia2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Utopia2.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Utopia2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Utopia2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Utopia2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Utopia2.pdb" afterDir="false" />
     </list>
@@ -43,7 +36,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Sevices/RealDatabaseService.cs" />
         <option value="$PROJECT_DIR$/ImageEntity.cs" />
         <option value="$PROJECT_DIR$/Planet.cs" />
         <option value="$PROJECT_DIR$/CardOption.cs" />
@@ -52,10 +44,11 @@
         <option value="$PROJECT_DIR$/StartGame.cs" />
         <option value="$PROJECT_DIR$/StatusWindow.cs" />
         <option value="$PROJECT_DIR$/Apocalypse.cs" />
-        <option value="$PROJECT_DIR$/PlayerStats.cs" />
-        <option value="$PROJECT_DIR$/GameOverScreen.cs" />
         <option value="$PROJECT_DIR$/Card.cs" />
         <option value="$PROJECT_DIR$/GameManger.cs" />
+        <option value="$PROJECT_DIR$/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/Sevices/RealDatabaseService.cs" />
+        <option value="$PROJECT_DIR$/GameOverScreen.cs" />
       </list>
     </option>
   </component>
@@ -116,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574823495368</updated>
       <workItem from="1574823499703" duration="10345000" />
-      <workItem from="1574840199126" duration="15161000" />
+      <workItem from="1574840199126" duration="15914000" />
     </task>
     <servers />
   </component>
@@ -146,18 +139,18 @@
     <state x="368" y="44" key="#Default/1366.768" />
     <state x="463" y="123" key="FileChooserDialogImpl" />
     <state x="463" y="123" key="FileChooserDialogImpl/1366.768" />
-    <state width="1323" height="181" key="GridCell.Tab.0.bottom" />
+    <state width="660" height="181" key="GridCell.Tab.0.bottom" />
     <state width="1237" height="181" key="GridCell.Tab.0.bottom/1280.720" />
-    <state width="1323" height="181" key="GridCell.Tab.0.bottom/1366.768" />
-    <state width="1323" height="181" key="GridCell.Tab.0.center" />
+    <state width="660" height="181" key="GridCell.Tab.0.bottom/1366.768" />
+    <state width="660" height="181" key="GridCell.Tab.0.center" />
     <state width="1237" height="181" key="GridCell.Tab.0.center/1280.720" />
-    <state width="1323" height="181" key="GridCell.Tab.0.center/1366.768" />
-    <state width="1323" height="181" key="GridCell.Tab.0.left" />
+    <state width="660" height="181" key="GridCell.Tab.0.center/1366.768" />
+    <state width="660" height="181" key="GridCell.Tab.0.left" />
     <state width="1237" height="181" key="GridCell.Tab.0.left/1280.720" />
-    <state width="1323" height="181" key="GridCell.Tab.0.left/1366.768" />
-    <state width="1323" height="181" key="GridCell.Tab.0.right" />
+    <state width="660" height="181" key="GridCell.Tab.0.left/1366.768" />
+    <state width="660" height="181" key="GridCell.Tab.0.right" />
     <state width="1237" height="181" key="GridCell.Tab.0.right/1280.720" />
-    <state width="1323" height="181" key="GridCell.Tab.0.right/1366.768" />
+    <state width="660" height="181" key="GridCell.Tab.0.right/1366.768" />
     <state width="1323" height="207" key="GridCell.Tab.1.bottom" />
     <state width="1323" height="207" key="GridCell.Tab.1.bottom/1366.768" />
     <state width="1323" height="207" key="GridCell.Tab.1.center" />
