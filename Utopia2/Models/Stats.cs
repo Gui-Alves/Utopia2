@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Utopia2.Models
 {
-    class Stats
+    public class Stats
     {
         public int Tech{ get; set; }
         public int Eco { get; set; }

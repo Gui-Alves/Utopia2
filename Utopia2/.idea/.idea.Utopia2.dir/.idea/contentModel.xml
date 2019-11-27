@@ -4,11 +4,21 @@
     <e p="C:\Users\guilh\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\guilh\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_.19.00" t="ExcludeRecursive" />
     <e p="C:\Users\guilh\RiderProjects\Utopia2\Utopia2" t="IncludeRecursive">
-      <e p="BG.jpg" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Card.cs" t="Include" />
       <e p="CardOption.cs" t="Include" />
       <e p="ImageEntity.cs" t="Include" />
+      <e p="Images" t="Include">
+        <e p="BG.jpg" t="Include" />
+        <e p="BOT.png" t="Include" />
+        <e p="BTNLEFT.png" t="Include" />
+        <e p="BTNRIGHT.png" t="Include" />
+        <e p="IMG.png" t="Include" />
+        <e p="rsz_bg.jpg" t="Include" />
+        <e p="STATISTCS.png" t="Include" />
+        <e p="TEXT.png" t="Include" />
+        <e p="TOP.png" t="Include" />
+      </e>
       <e p="Models" t="Include">
         <e p="Question.cs" t="Include" />
         <e p="Solution.cs" t="Include" />
@@ -21,7 +31,6 @@
       <e p="Properties" t="Include">
         <e p="AssemblyInfo.cs" t="Include" />
       </e>
-      <e p="rsz_bg.jpg" t="Include" />
       <e p="Sevices" t="Include">
         <e p="RealDatabaseService.cs" t="Include" />
       </e>

@@ -7,12 +7,19 @@ using Utopia2.Models;
 
 namespace Utopia2
 {
-    class PlayerStats
+    public static class PlayerStats
     {
-        string nome;
-        Stats stats;
+        static string nome;
+        static Stats stats;
+        
 
-        public string Nome { get => nome; set => nome = value; }
-        public Stats Stats { get => stats; set => stats = value; }
+        public static void AddStats(Stats statsToAdd)
+        {
+            stats.Eco += statsToAdd.Eco;
+            stats.Mood += statsToAdd.Mood;
+            stats.Pop += statsToAdd.Pop;
+            stats.Tech += statsToAdd.Tech;
+            stats.Year += 10;
+        }
     }
 }

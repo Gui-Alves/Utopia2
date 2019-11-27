@@ -18,8 +18,6 @@ C:\Users\guilh\RiderProjects\Utopia2\Utopia2\obj\Debug\Utopia2.csproj.CoreCompil
 C:\Users\guilh\RiderProjects\Utopia2\Utopia2\obj\Debug\Utopia2.csproj.CopyComplete
 C:\Users\guilh\RiderProjects\Utopia2\Utopia2\obj\Debug\Utopia2.exe
 C:\Users\guilh\RiderProjects\Utopia2\Utopia2\obj\Debug\Utopia2.pdb
-C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\BG.jpg
-C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\rsz_bg.jpg
 C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Firebase.dll
 C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\LiteDB.dll
 C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Newtonsoft.Json.dll
@@ -28,3 +26,5 @@ C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Firebase.xml
 C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\LiteDB.xml
 C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Newtonsoft.Json.xml
 C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\System.Reactive.xml
+C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Images\BG.jpg
+C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Images\rsz_bg.jpg
