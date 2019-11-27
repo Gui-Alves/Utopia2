@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Card.cs" />
     <Compile Include="CardOption.cs" />
+    <Compile Include="GameManger.cs" />
     <Compile Include="ImageEntity.cs" />
     <Compile Include="Models\Question.cs" />
     <Compile Include="Models\Solution.cs" />
@@ -78,6 +79,10 @@
     <Content Include="Images\BTNLEFT.png" />
     <Content Include="Images\BTNRIGHT.png" />
     <Content Include="Images\IMG.png" />
+    <Content Include="Images\Planeta\BOM.png" />
+    <Content Include="Images\Planeta\OTIMO.png" />
+    <Content Include="Images\Planeta\PESSIMO.png" />
+    <Content Include="Images\Planeta\RUIM.png" />
     <Content Include="Images\rsz_bg.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

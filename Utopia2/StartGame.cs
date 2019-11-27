@@ -14,16 +14,16 @@ namespace Utopia2
             var f = new RealDatabaseService();
 
             var game = new Game("Utopia", 1280, 720, 60, true);
-
-
-            var card = new Card(game);
+            GameManger.AddGame(game);
+            var card = new Card();
 
             var scene = new Scene();
             scene.Add(new ImageEntity(640, 360, "Images/rsz_bg.jpg"));
+       
+            
             scene.Add(card);
             scene.Add(card.firstOption);
             scene.Add(card.secondOption);
-            
 
             game.Start(scene);
         }

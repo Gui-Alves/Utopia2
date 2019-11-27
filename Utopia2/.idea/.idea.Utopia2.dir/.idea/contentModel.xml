@@ -7,6 +7,7 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="Card.cs" t="Include" />
       <e p="CardOption.cs" t="Include" />
+      <e p="GameManger.cs" t="Include" />
       <e p="ImageEntity.cs" t="Include" />
       <e p="Images" t="Include">
         <e p="BG.jpg" t="Include" />
@@ -14,6 +15,12 @@
         <e p="BTNLEFT.png" t="Include" />
         <e p="BTNRIGHT.png" t="Include" />
         <e p="IMG.png" t="Include" />
+        <e p="Planeta" t="Include">
+          <e p="BOM.png" t="Include" />
+          <e p="OTIMO.png" t="Include" />
+          <e p="PESSIMO.png" t="Include" />
+          <e p="RUIM.png" t="Include" />
+        </e>
         <e p="rsz_bg.jpg" t="Include" />
         <e p="STATISTCS.png" t="Include" />
         <e p="TEXT.png" t="Include" />

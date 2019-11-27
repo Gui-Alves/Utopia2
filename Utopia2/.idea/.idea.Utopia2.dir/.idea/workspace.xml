@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5ba510b-93bc-4b62-bd00-0b36f7e5c17c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GameManger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Utopia2.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Utopia2.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Utopia2.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Utopia2.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/BG.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Card.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Stats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Stats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/rsz_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/rsz_bg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StartGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StartGame.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utopia2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Utopia2.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/BG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/Otter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Otter.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/Otter.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Otter.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Images/rsz_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Images/rsz_bg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Utopia2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Utopia2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Utopia2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Utopia2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/rsz_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Utopia2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Utopia2.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Utopia2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Utopia2.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Utopia2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Utopia2.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Utopia2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Utopia2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Utopia2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Utopia2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rsz_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/rsz_bg.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,14 +30,16 @@
     <setting file="file://$PROJECT_DIR$/StartGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlayerStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Card.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameManger.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Sevices/RealDatabaseService.cs" />
-        <option value="$PROJECT_DIR$/StartGame.cs" />
         <option value="$PROJECT_DIR$/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/StartGame.cs" />
         <option value="$PROJECT_DIR$/Card.cs" />
+        <option value="$PROJECT_DIR$/GameManger.cs" />
       </list>
     </option>
   </component>
@@ -103,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574823495368</updated>
-      <workItem from="1574823499703" duration="2746000" />
+      <workItem from="1574823499703" duration="7987000" />
     </task>
     <servers />
   </component>
@@ -129,14 +125,50 @@
   <component name="WindowStateProjectService">
     <state x="368" y="44" key="#Default" />
     <state x="368" y="44" key="#Default/1366.768" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/1366.768" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center/1366.768" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left/1366.768" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right/1366.768" />
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom" />
+    <state width="1237" height="207" key="GridCell.Tab.0.bottom/1280.720" />
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom/1366.768" />
+    <state width="1323" height="199" key="GridCell.Tab.0.center" />
+    <state width="1237" height="207" key="GridCell.Tab.0.center/1280.720" />
+    <state width="1323" height="199" key="GridCell.Tab.0.center/1366.768" />
+    <state width="1323" height="199" key="GridCell.Tab.0.left" />
+    <state width="1237" height="207" key="GridCell.Tab.0.left/1280.720" />
+    <state width="1323" height="199" key="GridCell.Tab.0.left/1366.768" />
+    <state width="1323" height="199" key="GridCell.Tab.0.right" />
+    <state width="1237" height="207" key="GridCell.Tab.0.right/1280.720" />
+    <state width="1323" height="199" key="GridCell.Tab.0.right/1366.768" />
+    <state width="1323" height="207" key="GridCell.Tab.1.bottom" />
+    <state width="1323" height="207" key="GridCell.Tab.1.bottom/1366.768" />
+    <state width="1323" height="207" key="GridCell.Tab.1.center" />
+    <state width="1323" height="207" key="GridCell.Tab.1.center/1366.768" />
+    <state width="1323" height="207" key="GridCell.Tab.1.left" />
+    <state width="1323" height="207" key="GridCell.Tab.1.left/1366.768" />
+    <state width="1323" height="207" key="GridCell.Tab.1.right" />
+    <state width="1323" height="207" key="GridCell.Tab.1.right/1366.768" />
+    <state width="1323" height="207" key="GridCell.Tab.2.bottom" />
+    <state width="1323" height="207" key="GridCell.Tab.2.bottom/1366.768" />
+    <state width="1323" height="207" key="GridCell.Tab.2.center" />
+    <state width="1323" height="207" key="GridCell.Tab.2.center/1366.768" />
+    <state width="1323" height="207" key="GridCell.Tab.2.left" />
+    <state width="1323" height="207" key="GridCell.Tab.2.left/1366.768" />
+    <state width="1323" height="207" key="GridCell.Tab.2.right" />
+    <state width="1323" height="207" key="GridCell.Tab.2.right/1366.768" />
+    <state width="1323" height="207" key="GridCell.Tab.3.bottom" />
+    <state width="1323" height="207" key="GridCell.Tab.3.bottom/1366.768" />
+    <state width="1323" height="207" key="GridCell.Tab.3.center" />
+    <state width="1323" height="207" key="GridCell.Tab.3.center/1366.768" />
+    <state width="1323" height="207" key="GridCell.Tab.3.left" />
+    <state width="1323" height="207" key="GridCell.Tab.3.left/1366.768" />
+    <state width="1323" height="207" key="GridCell.Tab.3.right" />
+    <state width="1323" height="207" key="GridCell.Tab.3.right/1366.768" />
+    <state width="1323" height="207" key="GridCell.Tab.4.bottom" />
+    <state width="1323" height="207" key="GridCell.Tab.4.bottom/1366.768" />
+    <state width="1323" height="207" key="GridCell.Tab.4.center" />
+    <state width="1323" height="207" key="GridCell.Tab.4.center/1366.768" />
+    <state width="1323" height="207" key="GridCell.Tab.4.left" />
+    <state width="1323" height="207" key="GridCell.Tab.4.left/1366.768" />
+    <state width="1323" height="207" key="GridCell.Tab.4.right" />
+    <state width="1323" height="207" key="GridCell.Tab.4.right/1366.768" />
     <state x="-290" y="100" width="1344" height="678" key="search.everywhere.popup" />
     <state x="-290" y="100" width="1344" height="678" key="search.everywhere.popup/1366.768" />
   </component>
