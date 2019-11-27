@@ -19,7 +19,7 @@ namespace Utopia2
 
             var scene = new Scene();
             scene.Add(new ImageEntity(640, 360, "Images/rsz_bg.jpg"));
-       
+            scene.Add(new Planet(40, game.Height / 2));
             
             scene.Add(card);
             scene.Add(card.firstOption);

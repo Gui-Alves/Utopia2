@@ -9,8 +9,8 @@ namespace Utopia2
 {
     public static class PlayerStats
     {
-        static string nome;
-        static Stats stats;
+        public static string nome;
+        public static Stats stats;
         
 
         public static void AddStats(Stats statsToAdd)

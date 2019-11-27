@@ -59,6 +59,7 @@
     <Compile Include="ImageEntity.cs" />
     <Compile Include="Models\Question.cs" />
     <Compile Include="Models\Solution.cs" />
+    <Compile Include="Planet.cs" />
     <Compile Include="PlayerStats.cs" />
     <Compile Include="Sevices\RealDatabaseService.cs" />
     <Compile Include="StartGame.cs" />
@@ -75,17 +76,17 @@
     <Content Include="Images\BG.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\BOM.png" />
     <Content Include="Images\BOT.png" />
     <Content Include="Images\BTNLEFT.png" />
     <Content Include="Images\BTNRIGHT.png" />
     <Content Include="Images\IMG.png" />
-    <Content Include="Images\Planeta\BOM.png" />
-    <Content Include="Images\Planeta\OTIMO.png" />
-    <Content Include="Images\Planeta\PESSIMO.png" />
-    <Content Include="Images\Planeta\RUIM.png" />
+    <Content Include="Images\OTIMO.png" />
+    <Content Include="Images\PESSIMO.png" />
     <Content Include="Images\rsz_bg.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\RUIM.png" />
     <Content Include="Images\STATISTCS.png" />
     <Content Include="Images\TEXT.png" />
     <Content Include="Images\TOP.png" />
