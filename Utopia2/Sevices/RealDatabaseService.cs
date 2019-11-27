@@ -15,24 +15,36 @@ namespace Utopia2.Services
 
         public RealDatabaseService()
         {
-            Firebase = new FirebaseClient("https://utopia-dd9ef.firebaseio.com/");    
+            Firebase = new FirebaseClient("https://utopia-dd9ef.firebaseio.com/");
+            var fields = Get();
+
+
+            foreach (var item in fields)
+            {
+                Console.WriteLine(item.Value);
+            }
         }
 
 
-        public async Task<Stats> Get() //Monta uma fila de execucao
+
+        public IDictionary<string,Stats> Get() //Monta uma fila de execucao
         {
-            var registro = await Firebase
+            var registro = Firebase
                 .Child("Stats")
                 .OrderByKey()
                 .StartAt("")
                 .OnceAsync<Stats>();
 
-            return registro as Stats;
-           
+            var dict  = new Dictionary<string, Stats>();
 
+            foreach (var item in registro.Result)
+                dict.Add(item.Key, item.Object);
+
+            return dict;
+      
         }
 
-        public async Task Post(Stats stats)
+        public async void Post(Stats stats)
         {
             var registro = await Firebase.Child("Stats").PostAsync(stats);
         }

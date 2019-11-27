@@ -10,7 +10,7 @@ namespace Utopia2
         {
             Position = new Vector2(x, y);
             AddGraphic(new Image("Images/BTNLEFT.png"));
-            t = new Text("\n  Test Text", 16);
+            t = new Text("\n  Sim :D", 16);
 
             t.Color = Color.White;
             AddGraphics(t);

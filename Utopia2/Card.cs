@@ -39,7 +39,7 @@ namespace Utopia2
             fundo = new ImageEntity(400, 314, "Images/IMG.png");
             fundo.Position = new Vector2(650, 200);
             //Position = new Vector2(x: Position.X - Graphic.Width / 2, y:Position.Y);
-            desc = new desc(470, 360, "\n  deqddgagafdfasd");
+            desc = new desc(470, 360, "\n  Rolar os dados? ");
 
             firstOption = new CardOption(Position.X - 180, fundo.Position.Y + 320);
             secondOption = new CardOption(Position.X + 50, fundo.Position.Y + 320);
@@ -66,6 +66,8 @@ namespace Utopia2
                 PlayerStats.AddStats(new Stats(r.Next(-20, 20),r.Next(-20, 20), r.Next(-20, 20), r.Next(-20, 20), r.Next(-20, 20)));
 
             }
+            
+
         }
 
         void RemoveAll()
