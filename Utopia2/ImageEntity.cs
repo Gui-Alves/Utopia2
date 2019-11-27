@@ -2,7 +2,7 @@
 
 namespace Utopia2
 {
-    class ImageEntity : Entity
+    public class ImageEntity : Entity
     {
         public ImageEntity(float x, float y, string imagePath) : base(x, y)
         {
@@ -11,6 +11,13 @@ namespace Utopia2
             // Center the origin of the Image
             image.CenterOrigin();
             // Add the Image to the Entity's Graphic list.
+            AddGraphic(image);
+        }
+
+        public void changePath(string imagePath)
+        {
+            var image = new Image(imagePath);
+            image.CenterOrigin();
             AddGraphic(image);
         }
     }

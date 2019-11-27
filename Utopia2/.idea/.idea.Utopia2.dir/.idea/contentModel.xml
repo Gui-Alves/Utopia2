@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\guilh\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -7,6 +7,7 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="Card.cs" t="Include" />
       <e p="CardOption.cs" t="Include" />
+      <e p="desc.cs" t="Include" />
       <e p="GameManger.cs" t="Include" />
       <e p="ImageEntity.cs" t="Include" />
       <e p="Images" t="Include">

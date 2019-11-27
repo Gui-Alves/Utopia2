@@ -9,8 +9,8 @@ namespace Utopia2
         public CardOption(float x, float y)
         {
             Position = new Vector2(x, y);
-            AddGraphic(Image.CreateRectangle(400, 100, Color.Random));
-            t = new Text("Test Text", 16);
+            AddGraphic(new Image("Images/BTNLEFT.png"));
+            t = new Text("\n  Test Text", 16);
 
             t.Color = Color.White;
             AddGraphics(t);
@@ -18,8 +18,8 @@ namespace Utopia2
         public CardOption(float x, float y, Solution solution)
         {
             Position = new Vector2(x, y);
-            AddGraphic(Image.CreateRectangle(400, 100, Color.Random));
-            t = new Text(solution.Descricao, 16);
+            AddGraphic(new Image("Images/BTNLEFT.png"));
+            t = new Text("\n  "+solution.Descricao, 16);
 
             t.Color = Color.White;
             AddGraphics(t);

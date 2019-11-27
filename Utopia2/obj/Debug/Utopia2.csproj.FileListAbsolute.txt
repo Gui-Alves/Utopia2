@@ -28,3 +28,14 @@ C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Newtonsoft.Json.xml
 C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\System.Reactive.xml
 C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Images\BG.jpg
 C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Images\rsz_bg.jpg
+C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Images\BOM.png
+C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Images\BOT.png
+C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Images\BTNLEFT.png
+C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Images\BTNRIGHT.png
+C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Images\IMG.png
+C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Images\OTIMO.png
+C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Images\PESSIMO.png
+C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Images\RUIM.png
+C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Images\STATISTCS.png
+C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Images\TEXT.png
+C:\Users\guilh\RiderProjects\Utopia2\Utopia2\bin\Debug\Images\TOP.png

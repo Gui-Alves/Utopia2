@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Card.cs" />
     <Compile Include="CardOption.cs" />
+    <Compile Include="Desc.cs" />
     <Compile Include="GameManger.cs" />
     <Compile Include="ImageEntity.cs" />
     <Compile Include="Models\Question.cs" />
@@ -76,20 +77,42 @@
     <Content Include="Images\BG.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\BOM.png" />
-    <Content Include="Images\BOT.png" />
-    <Content Include="Images\BTNLEFT.png" />
-    <Content Include="Images\BTNRIGHT.png" />
-    <Content Include="Images\IMG.png" />
-    <Content Include="Images\OTIMO.png" />
-    <Content Include="Images\PESSIMO.png" />
+    <Content Include="Images\BOM.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\BOT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\BTNLEFT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\BTNRIGHT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\IMG.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OTIMO.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PESSIMO.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\rsz_bg.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\RUIM.png" />
-    <Content Include="Images\STATISTCS.png" />
-    <Content Include="Images\TEXT.png" />
-    <Content Include="Images\TOP.png" />
+    <Content Include="Images\RUIM.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\STATISTCS.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TEXT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TOP.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -1,28 +1,32 @@
-﻿using Otter;
+﻿using System;
+using System.Diagnostics;
+using Otter;
 
 namespace Utopia2
 {
     public class Planet : Entity
     {
-        private ImageEntity image;
+        public ImageEntity image;
         public Planet(int x, int y)
         {
-            Position = new Vector2(x: x, y: y); 
-            image =  new ImageEntity(400, 400, "Images/OTIMO.png");
+            Position = new Vector2(x: x, y: y);
+            image =  new ImageEntity(x, y, "Images/OTIMO.png");
         }
 
         public override void Update()
         {
             base.Update();
-            var eco = PlayerStats.stats.Eco;
+            int eco;
+            eco = PlayerStats.stats.Eco;
+            
             if(eco > 75)
-                image =  new ImageEntity(400, 400, "Images/OTIMO.png");
+                image.changePath("Images/OTIMO.png");
             if(eco <= 75 && eco > 50)
-                image =  new ImageEntity(400, 400, "Images/BOM.png");
+                image.changePath("Images/BOM.png");
             if(eco <= 50 && eco > 25)
-                image =  new ImageEntity(400, 400, "Images/RUIM.png");
+                image.changePath("Images/RUIM.png");
             if(eco <= 25)
-                image =  new ImageEntity(400, 400, "Images/PESSIMO.png");
+                image.changePath("Images/PESSIMO.png");
         }
     }
 }

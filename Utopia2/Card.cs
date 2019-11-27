@@ -9,6 +9,8 @@ namespace Utopia2
         public Question Question;
         public CardOption firstOption;
         public CardOption secondOption;
+        public ImageEntity fundo;
+        public desc desc;
         public Text t;
 
         
@@ -17,35 +19,41 @@ namespace Utopia2
         public Card(Question question)
         {
             Question = question;
-            if (GameManger.game != null) Position = new Vector2(x: GameManger.game.Width / 2, 50);
-            AddGraphic(Image.CreateRectangle(cardSizex, cardSizeY, Color.White));
-            Position = new Vector2(Position.X - Graphic.Width / 2, Position.Y);
+            if (GameManger.game != null) Position = new Vector2(x: GameManger.game.Width / 2, y:50);
+            //AddGraphic(Image.CreateRectangle(cardSizex, cardSizeY, Color.White));
+            fundo = new ImageEntity(400, 314, "Images/IMG.png");
+            fundo.Position = new Vector2(650, 200);
+            //Position = new Vector2(x: Position.X - Graphic.Width / 2, y:Position.Y);
+            desc = new desc(470, 360, "\n  "+ Question.Texto);
 
-            firstOption = new CardOption(Position.X, Graphic.Height - 100, question.Opcao1);
-            secondOption = new CardOption(Position.X, Graphic.Height, question.Opcao2);
+            firstOption = new CardOption(Position.X - 180, fundo.Position.Y + 320, question.Opcao1);
+             secondOption = new CardOption(Position.X + 50, fundo.Position.Y + 320, question.Opcao2);
         }
 
         public Card()
         {
-            if (GameManger.game != null) Position = new Vector2(x: GameManger.game.Width / 2, 50);
-            AddGraphic(Image.CreateRectangle(cardSizex, cardSizeY, Color.White));
-            Position = new Vector2(x: Position.X - Graphic.Width / 2, Position.Y);
+            if (GameManger.game != null) Position = new Vector2(x: GameManger.game.Width / 2, y:50);
+            //AddGraphic(Image.CreateRectangle(cardSizex, cardSizeY, Color.White));
+            fundo = new ImageEntity(400, 314, "Images/IMG.png");
+            fundo.Position = new Vector2(650, 200);
+            //Position = new Vector2(x: Position.X - Graphic.Width / 2, y:Position.Y);
+            desc = new desc(470, 360, "\n  deqddgagafdfasd");
 
-            firstOption = new CardOption(Position.X, Graphic.Height - 100);
-            secondOption = new CardOption(Position.X, Graphic.Height);
+            firstOption = new CardOption(Position.X - 180, fundo.Position.Y + 320);
+            secondOption = new CardOption(Position.X + 50, fundo.Position.Y + 320);
         }
 
 
         public override void Update()
         {
             base.Update();
-
+            
             if (Input.KeyPressed(Key.Left))
             {
                 if(Question!=null)
                     PlayerStats.AddStats(Question.Opcao1.Result);
                 //RemoveAll();
-                Position = new Vector2(Position.X - 10, Position.Y);
+
 
             }
             
