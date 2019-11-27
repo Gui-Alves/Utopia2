@@ -2,29 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5ba510b-93bc-4b62-bd00-0b36f7e5c17c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Desc.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vs/Utopia2/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/Utopia2/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vs/Utopia2/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/Utopia2/v15/Server/sqlite3/storage.ide" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vs/Utopia2/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/Utopia2/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vs/Utopia2/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/Utopia2/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vs/Utopia2/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/Utopia2/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vs/Utopia2/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/Utopia2/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StatusWindow.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Utopia2.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Utopia2.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Utopia2.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Utopia2.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Card.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CardOption.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CardOption.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Planet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Planet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Stats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Stats.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerStats.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StartGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StartGame.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utopia2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Utopia2.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/Otter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Otter.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/Otter.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Otter.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Utopia2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Utopia2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Utopia2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Utopia2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Utopia2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Utopia2.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Utopia2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Utopia2.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Utopia2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Utopia2.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Utopia2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Utopia2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Utopia2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Utopia2.pdb" afterDir="false" />
     </list>
@@ -40,6 +28,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Sevices/RealDatabaseService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Planet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Stats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StartGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ImageEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlayerStats.cs" root0="FORCE_HIGHLIGHTING" />
@@ -47,6 +36,7 @@
     <setting file="file://$PROJECT_DIR$/CardOption.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Card.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GameManger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StatusWindow.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -55,11 +45,13 @@
         <option value="$PROJECT_DIR$/GameManger.cs" />
         <option value="$PROJECT_DIR$/ImageEntity.cs" />
         <option value="$PROJECT_DIR$/Planet.cs" />
-        <option value="$PROJECT_DIR$/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/CardOption.cs" />
-        <option value="$PROJECT_DIR$/StartGame.cs" />
         <option value="$PROJECT_DIR$/desc.cs" />
+        <option value="$PROJECT_DIR$/Models/Stats.cs" />
+        <option value="$PROJECT_DIR$/StartGame.cs" />
         <option value="$PROJECT_DIR$/Card.cs" />
+        <option value="$PROJECT_DIR$/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/StatusWindow.cs" />
       </list>
     </option>
   </component>
@@ -120,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574823495368</updated>
       <workItem from="1574823499703" duration="10345000" />
-      <workItem from="1574840199126" duration="6594000" />
+      <workItem from="1574840199126" duration="8797000" />
     </task>
     <servers />
   </component>
@@ -192,6 +184,8 @@
     <state width="1323" height="207" key="GridCell.Tab.4.left/1366.768" />
     <state width="1323" height="207" key="GridCell.Tab.4.right" />
     <state width="1323" height="207" key="GridCell.Tab.4.right/1366.768" />
+    <state x="393" y="59" key="RiderGenerateDialog" />
+    <state x="393" y="59" key="RiderGenerateDialog/1366.768" />
     <state x="419" y="74" key="VCS.ChangeListViewerDialog" />
     <state x="419" y="74" key="VCS.ChangeListViewerDialog/1366.768" />
     <state x="-290" y="100" width="1344" height="678" key="search.everywhere.popup" />

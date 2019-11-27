@@ -42,6 +42,7 @@
         <e p="RealDatabaseService.cs" t="Include" />
       </e>
       <e p="StartGame.cs" t="Include" />
+      <e p="StatusWindow.cs" t="Include" />
       <e p="Utopia2.csproj" t="IncludeRecursive" />
     </e>
   </component>

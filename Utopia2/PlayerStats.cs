@@ -16,20 +16,15 @@ namespace Utopia2
         public static void AddStats(Stats statsToAdd)
         {
             stats.Eco = NumberLimit(stats.Eco + statsToAdd.Eco);
-            stats.Eco = NumberLimit(stats.Mood + statsToAdd.Mood);
-            stats.Eco = NumberLimit(stats.Pop + statsToAdd.Pop);
-            stats.Eco = NumberLimit(stats.Tech + statsToAdd.Tech);
+            stats.Mood = NumberLimit(stats.Mood + statsToAdd.Mood);
+            stats.Pop = NumberLimit(stats.Pop + statsToAdd.Pop);
+            stats.Tech = NumberLimit(stats.Tech + statsToAdd.Tech);
             stats.Year += 10;
         }
 
         public static void SetUp()
         {
-            Stats setUp = new Stats();
-            setUp.Eco = 70;
-            setUp.Mood = 50;
-            setUp.Pop = 30;
-            setUp.Tech = 10;
-            setUp.Year = 0;
+            Stats setUp = new Stats(10, 70,30,50,0);
             stats = setUp;
         }
 

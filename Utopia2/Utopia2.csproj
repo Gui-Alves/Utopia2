@@ -66,6 +66,7 @@
     <Compile Include="StartGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\Stats.cs" />
+    <Compile Include="StatusWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Documents\Otter-master\Otter\Otter.csproj">

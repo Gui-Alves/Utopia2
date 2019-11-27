@@ -28,6 +28,9 @@ namespace Utopia2
             scene.Add(card.firstOption);
             scene.Add(card.secondOption);
             
+            var StWin = new StatusWindow(game.Width - 400, game.Height/2);
+            scene.Add(StWin);
+            
             var a = new Planet(250, game.Height/2);
             scene.Add(a);
             scene.Add(a.image);

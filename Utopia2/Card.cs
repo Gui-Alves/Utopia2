@@ -53,7 +53,7 @@ namespace Utopia2
                 if(Question!=null)
                     PlayerStats.AddStats(Question.Opcao1.Result);
                 //RemoveAll();
-
+                PlayerStats.AddStats(new Stats(0,10, -2, 20, 0));
 
             }
             
@@ -68,6 +68,8 @@ namespace Utopia2
         {
             firstOption.RemoveSelf();
             secondOption.RemoveSelf();
+            desc.RemoveSelf();
+            fundo.RemoveSelf();
             RemoveSelf();
         }
     }
