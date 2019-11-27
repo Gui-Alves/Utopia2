@@ -6,6 +6,7 @@ namespace Utopia2
 {
     class Card : Entity
     {
+        private Random r;
         public Question Question;
         public CardOption firstOption;
         public CardOption secondOption;
@@ -32,6 +33,7 @@ namespace Utopia2
 
         public Card()
         {
+            r = new Random();
             if (GameManger.game != null) Position = new Vector2(x: GameManger.game.Width / 2, y:50);
             //AddGraphic(Image.CreateRectangle(cardSizex, cardSizeY, Color.White));
             fundo = new ImageEntity(400, 314, "Images/IMG.png");
@@ -53,14 +55,16 @@ namespace Utopia2
                 if(Question!=null)
                     PlayerStats.AddStats(Question.Opcao1.Result);
                 //RemoveAll();
-                PlayerStats.AddStats(new Stats(0,10, -2, 20, 0));
+                PlayerStats.AddStats(new Stats(r.Next(-20, 20),r.Next(-20, 20), r.Next(-20, 20), r.Next(-20, 20), r.Next(-20, 20)));
 
             }
             
             if (Input.KeyPressed(Key.Right)){
                 if(Question!=null)
                     PlayerStats.AddStats((Question.Opcao2.Result));
-                RemoveAll();
+                //RemoveAll();
+                PlayerStats.AddStats(new Stats(r.Next(-20, 20),r.Next(-20, 20), r.Next(-20, 20), r.Next(-20, 20), r.Next(-20, 20)));
+
             }
         }
 

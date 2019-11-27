@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Utopia2.Models;
 
 namespace Utopia2
@@ -20,11 +21,36 @@ namespace Utopia2
             stats.Pop = NumberLimit(stats.Pop + statsToAdd.Pop);
             stats.Tech = NumberLimit(stats.Tech + statsToAdd.Tech);
             stats.Year += 10;
+
+            if (stats.Eco == 0)
+            {
+                GameManger.Apocalypse(Apocalypse.microEco);
+                return;
+            }
+            if (stats.Mood == 0)
+            {
+                GameManger.Apocalypse(Apocalypse.microMood);
+                return;
+            }
+            if (stats.Tech == 0)
+            {
+                GameManger.Apocalypse(Apocalypse.microTech);
+                return;
+            }
+            if (stats.Pop == 0)
+            {
+                GameManger.Apocalypse(Apocalypse.microPop);
+                return;
+            }
+            if (stats.Pop == 100)
+                GameManger.Apocalypse(Apocalypse.macroPop);
+            
         }
 
         public static void SetUp()
         {
-            Stats setUp = new Stats(10, 70,30,50,0);
+            Random r = new Random();
+            Stats setUp = new Stats(r.Next(20, 60), r.Next(20, 60),r.Next(20, 80),r.Next(20, 60),r.Next(20, 60));
             stats = setUp;
         }
 

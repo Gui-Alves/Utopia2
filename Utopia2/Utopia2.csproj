@@ -53,10 +53,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Apocalypse.cs" />
     <Compile Include="Card.cs" />
     <Compile Include="CardOption.cs" />
     <Compile Include="Desc.cs" />
     <Compile Include="GameManger.cs" />
+    <Compile Include="GameOverScreen.cs" />
     <Compile Include="ImageEntity.cs" />
     <Compile Include="Models\Question.cs" />
     <Compile Include="Models\Solution.cs" />
