@@ -22,6 +22,7 @@
       <list>
         <option value="$PROJECT_DIR$/Utopia2/StartGame.cs" />
         <option value="$PROJECT_DIR$/Utopia2/Models/Solution.cs" />
+        <option value="$PROJECT_DIR$/Utopia2/ImageEntity.cs" />
       </list>
     </option>
   </component>
@@ -76,7 +77,16 @@
       <updated>1574725990133</updated>
       <workItem from="1574725995090" duration="2777000" />
       <workItem from="1574809960740" duration="976000" />
+      <workItem from="1574961785192" duration="221000" />
     </task>
+    <task id="LOCAL-00001" summary="Otter added">
+      <created>1574962008542</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574962008542</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,8 +94,21 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="Otter added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Otter added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="44" key="#Default" />
