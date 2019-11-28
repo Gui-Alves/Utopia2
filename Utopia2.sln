@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utopia2", "Utopia2\Utopia2.csproj", "{A9CE6AFE-D0C2-43FE-ADDD-913353E634FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otter", "..\..\Documents\Otter-master\Otter\Otter.csproj", "{236485C2-A7BA-4DCD-808A-B3A634764402}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otter", "Otter\Otter.csproj", "{236485C2-A7BA-4DCD-808A-B3A634764402}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
