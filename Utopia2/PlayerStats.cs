@@ -22,28 +22,6 @@ namespace Utopia2
             stats.Tech = NumberLimit(stats.Tech + statsToAdd.Tech);
             stats.Year += 10;
 
-            if (stats.Eco == 0)
-            {
-                GameManger.Apocalypse(Apocalypse.microEco);
-                return;
-            }
-            if (stats.Mood == 0)
-            {
-                GameManger.Apocalypse(Apocalypse.microMood);
-                return;
-            }
-            if (stats.Tech == 0)
-            {
-                GameManger.Apocalypse(Apocalypse.microTech);
-                return;
-            }
-            if (stats.Pop == 0)
-            {
-                GameManger.Apocalypse(Apocalypse.microPop);
-                return;
-            }
-            if (stats.Pop == 100)
-                GameManger.Apocalypse(Apocalypse.macroPop);
             
         }
 

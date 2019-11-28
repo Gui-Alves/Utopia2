@@ -23,6 +23,7 @@ namespace Utopia2
         {
             //Get possible Questions from db
             
+            
             //Choose wich Question to do the thing
             
             //Add Card to Scene

@@ -13,7 +13,7 @@ namespace Utopia2
         {
             var f = new RealDatabaseService();
 
-            var game = new Game("Utopia", 1280, 720, 60, true);
+            var game = new Game("Utopia", 1280, 720, 30, false);
             GameManger.AddGame(game);
 
             var scene = new Scene();

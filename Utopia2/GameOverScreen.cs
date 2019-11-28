@@ -47,8 +47,7 @@ namespace Utopia2
             stats.DefaultOutlineThickness = 30;
             a.AddGraphic(stats);
 
-            var f = new RealDatabaseService();
-            f.Post(PlayerStats.stats);
+           
         }
 
         public override void Update()
@@ -57,6 +56,9 @@ namespace Utopia2
 
             if (Input.KeyPressed(Key.Any))
             {
+                var f = new RealDatabaseService();
+                f.Post(PlayerStats.stats);
+                
                 var scene = new Scene();
                 scene.Add(new ImageEntity(640, 360, "Images/rsz_bg.jpg"));
 
