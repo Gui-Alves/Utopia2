@@ -1,4 +1,6 @@
-﻿using System.Data;
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
 using System.Windows.Forms;
 using Otter;
 using Utopia2.Models;
@@ -8,6 +10,7 @@ namespace Utopia2
     public static class GameManger
     {
         public static Game game;
+        private static List<Question> questions = new List<Question>();
 
         public static void AddGame(Game games)
         {
@@ -21,12 +24,34 @@ namespace Utopia2
         
         public static void BuildACard()
         {
+            Random r = new Random();
+            questions.Clear();
+            var a = new RealDatabaseService();
             //Get possible Questions from db
-            
-            
+            var fields = a.Get2();
+            foreach (var item in fields)
+            {
+                //Compare prehhequisitos
+                questions.Add(item.Value);
+            }
+
+            Card card;
             //Choose wich Question to do the thing
-            
+            if (questions.Count > 0)
+            { 
+                card = new Card(questions[r.Next(0, questions.Count)]);
+            }
+            else
+            {
+                card = new Card();
+            }
+
             //Add Card to Scene
+            game.Scene.Add(card);
+            game.Scene.Add(card.desc);
+            game.Scene.Add(card.fundo);
+            game.Scene.Add(card.firstOption);
+            game.Scene.Add(card.secondOption);
         }
 
         public static void Apocalypse(Apocalypse cause)

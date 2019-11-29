@@ -12,7 +12,8 @@ namespace Utopia2
         public static void Main(string[] args)
         {
             PlayerStats.SetUp();
-            var f = new RealDatabaseService();
+            //var f = new RealDatabaseService();
+            //f.PostQuestion();
 
             var game = new Game("Utopia", 1280, 720, 30, false);
             GameManger.AddGame(game);

@@ -54,20 +54,32 @@ namespace Utopia2
             {
                 if(Question!=null)
                     PlayerStats.AddStats(Question.Opcao1.Result);
-                //RemoveAll();
-                PlayerStats.AddStats(new Stats(r.Next(-20, 20),r.Next(-20, 20), r.Next(-20, 20), r.Next(-20, 20), r.Next(-20, 20)));
-
+                else
+                {
+                    PlayerStats.AddStats(new Stats(r.Next(-20, 20),r.Next(-20, 20), r.Next(-20, 20), r.Next(-20, 20), r.Next(-20, 20)));
+                }
+                GameManger.BuildACard();
+                RemoveAll();
+                
             }
             
             if (Input.KeyPressed(Key.Right)){
                 if(Question!=null)
                     PlayerStats.AddStats((Question.Opcao2.Result));
-                //RemoveAll();
-                PlayerStats.AddStats(new Stats(r.Next(-20, 20),r.Next(-20, 20), r.Next(-20, 20), r.Next(-20, 20), r.Next(-20, 20)));
-
+                else
+                {
+                    PlayerStats.AddStats(new Stats(r.Next(-20, 20),r.Next(-20, 20), r.Next(-20, 20), r.Next(-20, 20), r.Next(-20, 20)));
+                }
+                GameManger.BuildACard();
+                RemoveAll();
             }
-            
 
+            if (Input.KeyPressed(Key.R))
+            {
+                PlayerStats.AddStats(new Stats(r.Next(-20, 20),r.Next(-20, 20), r.Next(-20, 20), r.Next(-20, 20), r.Next(-20, 20)));
+                GameManger.BuildACard();
+                RemoveAll();
+            }
         }
 
         void RemoveAll()
