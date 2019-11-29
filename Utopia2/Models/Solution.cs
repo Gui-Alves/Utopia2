@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Utopia2.Models;
-
+﻿
 namespace Utopia2.Models
 {
     class Solution
@@ -15,5 +9,11 @@ namespace Utopia2.Models
 
         public string Descricao { get => descricao; set => descricao = value; }
         public Stats Result { get => result; set => result = value; }
+
+        public Solution(string descricao, Stats result)
+        {
+            this.descricao = descricao;
+            this.result = result;
+        }
     }
 }

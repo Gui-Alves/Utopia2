@@ -5,6 +5,11 @@ namespace Utopia2
 {
     public class StatusWindow: Entity
     {
+        private string eco;
+        private string mood;
+        private string pop;
+        private string tech;
+        
         private string losing;
         private string winning;
         private string shake;
@@ -31,8 +36,8 @@ namespace Utopia2
             status.Tech = FormatNumber(status.Tech, PlayerStats.stats.Tech);
             status.Year = FormatNumber(status.Year, PlayerStats.stats.Year);
             
-            t.String = "\n      Ecologia:   "+losing + status.Eco + "{clear}\n      População:   " + status.Pop +
-                       "{clear}\n      Tecnologia:   " + status.Tech + "{clear}\n      Felicidade:   " + status.Mood +
+            t.String = "\n      Ecologia:   "+eco + status.Eco + "{clear}\n      População:   " +pop + status.Pop +
+                       "{clear}\n      Tecnologia:   " + tech+ status.Tech + "{clear}\n      Felicidade:   " +mood+ status.Mood +
                        "{clear}\n\n           Ano:    " + status.Year;
             //t.String = "Hello, {color:f00}Ecologia:{clear} {shake:0}Shaking text!";
 
@@ -64,10 +69,21 @@ namespace Utopia2
 
         private int FormatNumber(int i, int target)
         {
+            string a;
             if (i < target)
+            {
                 i++;
-            if (i > target)
+                a = winning;
+            }
+            else if (i > target)
+            {
                 i--;
+                a = losing;
+            }
+            else
+                a = "{color:fff}";
+            
+
             return i;
         }
     }

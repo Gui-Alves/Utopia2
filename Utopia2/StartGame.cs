@@ -11,15 +11,15 @@ namespace Utopia2
     {
         public static void Main(string[] args)
         {
+            PlayerStats.SetUp();
             var f = new RealDatabaseService();
 
             var game = new Game("Utopia", 1280, 720, 30, false);
             GameManger.AddGame(game);
 
             var scene = new Scene();
-            scene.Add(new ImageEntity(640, 360, "Images/rsz_bg.jpg"));
+            scene.Add(new ImageEntity(640, 360, "Images/BGA.gif"));
             
-            PlayerStats.SetUp();
             
             var card = new Card();
             scene.Add(card);

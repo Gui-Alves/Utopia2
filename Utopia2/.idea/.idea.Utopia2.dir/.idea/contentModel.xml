@@ -5,6 +5,7 @@
     <e p="C:\Users\guilh\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_.19.00" t="ExcludeRecursive" />
     <e p="C:\Users\guilh\RiderProjects\Utopia2\Utopia2" t="IncludeRecursive">
       <e p="Apocalypse.cs" t="Include" />
+      <e p="app.config" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Card.cs" t="Include" />
       <e p="CardOption.cs" t="Include" />
@@ -14,6 +15,7 @@
       <e p="ImageEntity.cs" t="Include" />
       <e p="Images" t="Include">
         <e p="BG.jpg" t="Include" />
+        <e p="BGA.gif" t="Include" />
         <e p="BOM.png" t="Include" />
         <e p="BOT.png" t="Include" />
         <e p="BTNLEFT.png" t="Include" />

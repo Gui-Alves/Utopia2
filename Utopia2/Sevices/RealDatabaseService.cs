@@ -16,13 +16,12 @@ namespace Utopia2.Services
         public RealDatabaseService()
         {
             Firebase = new FirebaseClient("https://utopia-dd9ef.firebaseio.com/");
-            var fields = Get();
-
-
-            foreach (var item in fields)
-            {
-                Console.WriteLine(item.Value);
-            }
+            PostQuestion();
+//            var fields = Get();
+//            foreach (var item in fields)
+//            {
+//                Console.WriteLine(item.Value);
+//            }
         }
 
 
@@ -48,5 +47,17 @@ namespace Utopia2.Services
         {
             var registro = await Firebase.Child("Stats").PostAsync(stats);
         }
+
+        public async void PostQuestion()
+        {
+            Stats s = PlayerStats.stats; 
+            Solution one = new Solution("Opcao1", s);
+            Solution two = new Solution("opcao2", s);
+            Question q = new Question("blablabla", s, one, two);
+            
+            var a = await Firebase.Child("Questions").PostAsync(q);
+        }
+        
+        
     }
 }

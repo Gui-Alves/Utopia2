@@ -1,17 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Utopia2.Models
 {
     public class Stats
     {
-        public Stats()
-        {
-
-        }
         public Stats(int tech, int eco, int pop, int mood, int year)
         {
             Tech = tech;

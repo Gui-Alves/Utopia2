@@ -14,10 +14,17 @@ namespace Utopia2.Models
         Solution opcao1;
         Solution opcao2;
 
-
         public string Texto { get => texto; set => texto = value; }
         public Stats PreRequisitos { get => preRequisitos; set => preRequisitos = value; }
         public Solution Opcao1 { get => opcao1; set => opcao1 = value; }
         public Solution Opcao2 { get => opcao2; set => opcao2 = value; }
+
+        public Question(string texto, Stats preRequisitos, Solution opcao1, Solution opcao2)
+        {
+            this.texto = texto;
+            this.preRequisitos = preRequisitos;
+            this.opcao1 = opcao1;
+            this.opcao2 = opcao2;
+        }
     }
 }
